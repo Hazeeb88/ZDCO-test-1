@@ -1618,7 +1618,7 @@ width:  120px;
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   #footer .container {
       flex-direction: column;
       justify-content: center;
@@ -1725,7 +1725,7 @@ width:  120px;
 }
 
 /* Hide nav button and menu on larger screens */
-@media (min-width: 768px) {
+@media (min-width: 990px) {
   .nav-button, .nav-menu {
       display: none !important;
   }
