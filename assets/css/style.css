@@ -131,11 +131,14 @@ input[type=text]::placeholder {
   transition: all 0.5s;
   z-index: 997;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 4px;
+
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
   background: rgb(255, 254, 254);
+  padding-top: 4px;
 }
 
 #header .logo {
@@ -617,7 +620,7 @@ input[type=text]::placeholder {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 20px 0;
+  padding: 25px 0;
   overflow: hidden;
 }
 
