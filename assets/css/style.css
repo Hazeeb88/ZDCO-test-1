@@ -462,13 +462,32 @@ input[type=text]::placeholder {
   0% {
     background-image: url("../img/bgimg2.jpg");
   }
+  12% {
+    background-image: url("../img/bgimg2.jpg");
+  }
   50% {
+    background-image: url("../img/bgimg.jpg");
+  }
+  58% {
     background-image: url("../img/bgimg.jpg");
   }
   100% {
     background-image: url("../img/bgimg2.jpg");
   }
 }
+
+#whats {
+  color: #00b472;
+  font-size: 30px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+#whats:hover {
+  color: #009961;
+}
+
+
+
 @media (max-width: 944px) {
   #hero {
     /* background-image: url("../img/mbimg.jpg"); */
